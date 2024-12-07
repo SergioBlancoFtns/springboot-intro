@@ -32,6 +32,13 @@ public class ApiController {
         return this.listado;
     }
 
+    @GetMapping("/clear")
+    List<Dato> clear(){
+        this.listado = new LinkedList<>();
+        this.lastId = 0L;
+        return this.listado;
+    }
+
     @PostMapping("/")
     Dato create(@RequestBody Dato dato){
         dato.setId(++this.lastId);
