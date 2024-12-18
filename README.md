@@ -1,4 +1,4 @@
-# Read me second
+# README
 
 The following code was made by following a course in which it teaches you an intodruction to Springboot.
 
@@ -13,7 +13,7 @@ some differences and similarities between both frameworks.
 * MySQL DB
 * PhpMyAdmin
 
-# Leéme de segundo
+# Leéme
 
 El siguiente código fue hecho siguiendo un curso en el que se enseña una introducción a Springboot.
 
